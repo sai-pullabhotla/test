@@ -5,7 +5,21 @@ package com.jmethods.test;
  *
  */
 public class App {
-	public static void main(String[] args) {
-		System.out.println("Hello World v0.08!");
-	}
+
+  /**
+   * Default constructor.
+   */
+  private App() {
+    // Hide constructor.
+  }
+
+  /**
+   * Main method.
+   *
+   * @param args
+   *          command line arguments.
+   */
+  public static void main(final String[] args) {
+    System.out.println("Hello World v0.08!");
+  }
 }
